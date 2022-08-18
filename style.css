@@ -1,0 +1,222 @@
+*{box-sizing: border-box;}
+body{ font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+margin:0;
+padding:0;
+width: 100%;
+height:100%; 
+background-color:#e96437;
+}
+.container{
+    box-shadow: 0 25px 20px -5px;
+ width: 80%;
+ height:600px;
+ margin:250px auto;
+ background-color: white;
+ border-radius: 10px;
+ 
+}
+/*.sub{; 
+    width:80%;
+    height:60%;
+    margin: auto;
+    border: solid rgb(54, 204, 9);
+    
+}*/
+header{ display: flex;
+    flex-direction: row-reverse;  /*margin: 0 150px;*/
+}
+.sign {
+    
+    width: 40%; font-size: 12px;
+
+}
+.links{display:inline; font-size: 12px; }
+ .links ul li {display:inline; margin: 0 55px 0 45px;}
+.links ul li a{
+        text-decoration: none;
+        color:black;
+    }
+
+    .main{ margin: 90px 0 0 0; display: flex;
+    flex-direction: row-reverse;
+}
+.log{ float: right;
+     color: #e96437;  margin: 0px 20px; padding: 5px 20px;
+}
+/*.empty{border: solid #200ae7 2px; height: 300px; width: 300px; 
+    margin-top: 10px; float: left; } */
+
+.img{
+        background-image: url("edited.jpg");
+        background-size: 400px;
+        width: 40%;
+        height: 400px;
+}
+.content{
+    height: auto;
+    width: 40%;
+    
+
+}
+h1{
+    padding: 0;
+    margin: 0;
+}
+.red{ color: #e96437;
+    padding: 20px 0 0 0;
+    margin: 50px 0 0 0;
+}
+.big{
+    font-size:50px;
+    font-weight: 1;
+    padding: 0;
+    margin: 0;
+}
+button{
+    margin-top: 50px;
+    background-color: #e96437;
+    padding: 10px 5px;
+    border: none;
+    font-weight: bold;
+    
+}
+.normal{
+    font-weight: 400;
+}
+@media screen and (max-width: 414px) { 
+    .main{ margin: 10% 0 0 0; display: flex;
+        flex-direction: row-reverse;
+} 
+body{ font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin:0;
+    padding:0;
+    width: auto;
+    height:50%; 
+    background-color:#e96437;}
+    .container{
+    box-shadow: 0 15px 10px -9px;
+    width: 80%;
+    height:auto;
+    padding-bottom: 10%;
+    margin:50% auto;
+    background-color: white;
+    border-radius: 10px;}
+    .links{display:inline; color:black; font-size: 7px;}
+    .links ul li{display:inline; margin: 0 7px 0 6px;}
+    .sign{ width: 40%; color: #e96437; 
+        font-size: 7px; }
+    .big{
+        font-size:15px;
+        font-weight: 1;
+        padding: 0;
+        margin: 0;
+}
+    h1{
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+    }
+    .red{ color: #e96437;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+        font-size: 10px;
+    }
+    button{
+        font-size: 7px;
+        margin-top: 0;
+        background-color: #e96437;
+        padding: 4px 2px;
+        border: none;
+        font-weight: 350;
+        
+    } 
+    .content{
+        height: 100px;
+        width: 40%;
+    }
+    .normal{
+        font-size: 7px;
+        font-weight: 400;
+    }
+    .img{
+        background-image: url("edited.jpg");
+        background-size: 120px;
+        width: 40%;
+        height: 120px;
+        background-repeat: no-repeat;
+}
+}
+@media screen and (min-width: 415px) and (max-width: 720px) {
+    .main{ margin: 10% 0 0 0; display: flex;
+        flex-direction: row-reverse;
+} 
+body{ font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin:0;
+    padding:0;
+    width: auto;
+    height:50%; 
+    background-color:#e96437;}
+    .container{
+    box-shadow: 0 15px 10px -9px;
+    width: 80%;
+    height:auto;
+    margin:50% auto;
+    padding-bottom: 10%;
+    background-color: white;
+    border-radius: 10px;}
+    .links{display:inline; color:black; font-size: 65%;}
+    .links ul li{display:inline; margin: 0 10px 0 9px;}
+    .sign{ width: 40%; color: #e96437; 
+        font-size: 70%; }
+    .big{
+        font-size:20px;
+        font-weight: 1;
+        padding: 0;
+        margin: 0;
+}
+    h1{
+        font-size: 20px;
+        padding: 0;
+        margin: 0;
+    }
+    .red{ color: #e96437;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+        font-size: 12px;
+    }
+    button{
+        font-size: 10px;
+        margin-top: 0;
+        background-color: #e96437;
+        padding: 7px 3px;
+        border: none;
+        font-weight: 350;
+        
+    } 
+    .content{
+        height: 150px;
+        width: 40%;
+    }
+    .normal{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .img{
+        background-image: url("edited.jpg");
+        background-size: 200px;
+        width: 40%;
+        height: 170px;
+        background-repeat: no-repeat;
+}
+    a{
+        text-decoration: none;
+    }
+}
+@media screen and (min-width: 721px) and (max-width: 1280px) {
+    .main{ margin: 90px 0 0 0; display: flex;
+        flex-direction: row-reverse;
+}
+}
+@media screen and (min-width: 1281px) and (max-width: 1440px) {
+
+}
